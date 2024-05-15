@@ -3,7 +3,7 @@ import configureStore from 'misc/redux/configureStore';
 import React from 'react';
 
 import App from './containers/App';
-import rootReducer from './reducers';
+import rootReducer from './reducers/index';
 
 const store = configureStore(rootReducer);
 export default function Index() {

@@ -26,6 +26,9 @@ import IntlProvider from '../components/IntlProvider';
 import MissedPage from '../components/MissedPage';
 import SearchParamsConfigurator from '../components/SearchParamsConfigurator';
 
+import CourseListPage from "../../pageProviders/CourseList";
+import CourseDetailsPage from "../../pageProviders/CourseDetails";
+
 function App() {
   const dispatch = useDispatch();
   const [state, setState] = useState({
@@ -78,6 +81,18 @@ function App() {
                     <Route
                       element={<SecretPage />}
                       path={`${pageURLs[pages.secretPage]}`}
+                    />
+                    <Route
+                        element={<CourseListPage />}
+                        path={`${pageURLs[pages.courseListPage]}`}
+                    />
+                    <Route
+                        element={<CourseDetailsPage />}
+                        path={`${pageURLs[pages.courseListPage]}/:id`}
+                    />
+                    <Route
+                        element={<CourseDetailsPage />}
+                        path={`${pageURLs[pages.courseListPage]}/new`}
                     />
                     <Route
                       element={(

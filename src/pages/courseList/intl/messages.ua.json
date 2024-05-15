@@ -1,0 +1,18 @@
+{
+  "Courses": "Курси",
+  "Name": "Назва",
+  "Department": "Відділ",
+  "Apply Filter": "Застосувати фільтр",
+  "Add Course": "Додати курс",
+  "Departments": "Відділи",
+  "Instructor": "Інструктор",
+  "Loading": "Завантаження...",
+  "No courses found": "Курси не знайдено.",
+  "Error": "Помилка",
+  "Confirm Delete": "Підтвердити видалення",
+  "Are you sure you want to delete the course": "Ви впевнені, що хочете видалити курс",
+  "Cancel": "Скасувати",
+  "Confirm": "Підтвердити",
+  "Course successfully deleted": "Курс успішно видалено.",
+  "Error deleting course": "Помилка при видаленні курсу."
+}

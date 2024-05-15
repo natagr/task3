@@ -1,0 +1,18 @@
+{
+  "Courses": "Courses",
+  "Name": "Name",
+  "Department": "Department",
+  "Apply Filter": "Apply Filter",
+  "Add Course": "Add Course",
+  "Departments": "Departments",
+  "Instructor": "Instructor",
+  "Loading": "Loading...",
+  "No courses found": "No courses found.",
+  "Error": "Error",
+  "Confirm Delete": "Confirm Delete",
+  "Are you sure you want to delete the course": "Are you sure you want to delete the course",
+  "Cancel": "Cancel",
+  "Confirm": "Confirm",
+  "Course successfully deleted": "Course successfully deleted.",
+  "Error deleting course": "Error deleting course."
+}
